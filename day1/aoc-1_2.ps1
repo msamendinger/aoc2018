@@ -1,9 +1,8 @@
-$c = Get-Content .\aoc-2-input.txt
+$c = Get-Content .\aoc-1_2-input.txt
 $f = 0
-$t = 0
-$i = $null
+$i = $false
 $fa = [collections.arraylist]@()
-$fa.Add($f)
+$fa.Add($f) | Out-Null
 do {
     $c | ForEach-Object {
         $f += $_
@@ -15,6 +14,5 @@ do {
             $fa.Add($f)    |Out-Null
         }
     } 
-    $t += 1
-    $t 
-} while ($i -eq $null)
+} while ($i -eq $false)
+$i
