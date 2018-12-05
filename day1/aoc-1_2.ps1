@@ -1,8 +1,7 @@
 $c = Get-Content .\aoc-1_2-input.txt
 $f = 0
 $i = $false
-$fa = [collections.arraylist]@()
-$fa.Add($f) | Out-Null
+$fa = [collections.arraylist]@($f)
 do {
     $c | ForEach-Object {
         $f += $_
