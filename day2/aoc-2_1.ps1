@@ -17,6 +17,5 @@ ForEach ($entry in $aoc2input) {
             $Counter3++
         }
     }
-    #[regex]::matches($s,"c").count
 }
 $Counter2 * $Counter3
