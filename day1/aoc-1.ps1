@@ -1,0 +1,1 @@
+(Get-Content .\aoc-1-input.txt |Measure-Object -Sum).Sum
