@@ -5,6 +5,9 @@ The solution I found with its many foreach loops seems dirty
 
 [Comparing strings with the help of hash sets](https://cs.stackexchange.com/questions/93467/data-structure-or-algorithm-for-quickly-finding-differences-between-strings)
 
+I was reminded again that Functions not only make the code more readable but help to chunk the problem in
+smaller pieces
+
 ```powershell
 Measure-Command part1
 Days              : 0
